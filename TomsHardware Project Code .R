@@ -14,7 +14,7 @@ library(gridExtra)
 ### OPERATIONS WITH DATA ###
 
 # 1 Read the Data 
-TomsHardware = read_csv("/Users/nikakondzhariya/Desktop/9890\ Project\ /TomsHardware.data", 
+TomsHardware = read_csv("TomsHardware.data", 
                          col_names = FALSE)
 TomsHardware=as.data.frame(TomsHardware)
 str(TomsHardware)
